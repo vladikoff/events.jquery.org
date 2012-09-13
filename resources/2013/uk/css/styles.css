@@ -58,6 +58,15 @@ h2 {
 	letter-spacing:1px;
 }
 
+h3 {
+	color:#eee;
+	font-family: 'BebasNeueRegular';
+	font-weight:normal;
+	line-height:1em;
+	margin-bottom:.35em;
+	letter-spacing:1px;
+}
+
 p {
 	color:#ccc;
 	font-family:'FrutigerLTStd55RomanRegular';

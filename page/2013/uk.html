@@ -11,6 +11,19 @@
 		<link rel="stylesheet" href="/resources/2013/uk/css/styles.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<!-- Analytics -->
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-26445173-2']);
+		  _gaq.push(['_setDomainName', 'events.jquery.org']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
 	</head>
 	<body>
 		<div class="container">
@@ -37,18 +50,13 @@
 			</header> <!-- Header -->
 
 			<div class="row">
-				<div class="span4 speaker-col">
-					<h2>Call for speakers</h2>
-					<p>Would you like to submit a talk?</p>
-					<a href="https://jqueryuk2013.busyconf.com/proposals/new" class="btn btn-primary">Submit a talk</a>
-				</div>
-				<div class="span4 speaker-col">
-					<h2>Suggest a speaker</h2>
-					<p>Is there someone you'd love to hear speak?</p>
-					<a href="https://docs.google.com/a/whiteoctober.co.uk/spreadsheet/viewform?formkey=dC14WVhfSjdBMTU0ZUNYR2xpZVdzc3c6MQ#gid=0" class="btn btn-primary">Submit a talk</a>
-				</div>
-				<div class="emailsignup span4">
-					<h2>Be the first to know</h2>
+				<div class="emailsignup span6">
+					<h2>Blind bird tickets!</h2>
+					<p>We have 100 tickets on sale before the speakers are announced. Be quick, we sold the conference out last year in 3 weeks. These will go fast.</p>
+					<a href="http://jquk2013.eventbrite.co.uk" class="btn btn-primary">Buy now</a>
+					<p/>
+					<p>The rest of the tickets will be on sale when the speakers are announced in late October.</p>
+					<h3>Be the first to know!</h3>
 					<!-- Begin MailChimp Signup Form -->
 					<div id="mc_embed_signup">
 						<form action="http://whiteoctober.us1.list-manage.com/subscribe/post?u=222c1a0b47324d6efb1cf5ecd&amp;id=fb8c4e9a9c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
@@ -58,10 +66,22 @@
 							</div>
 						</form>
 					</div>
-
+					<p>We will not use your email address for evil.</p>
 					<!--End mc_embed_signup-->
-					<p>We will email you about the launch and when tickets go on sale. We will not use your email address for evil.</p>
 				</div>
+
+				<div class="span6 speaker-col">
+					<h2>Call for speakers</h2>
+					<p>Would you like to propose a talk? Call for speakers closes on the 11th of October.</p>
+					<a href="https://jqueryuk2013.busyconf.com/proposals/new" class="btn btn-primary">Propose a talk</a>
+					<p/>
+					<h2>Suggest a speaker</h2>
+					<p>Is there someone you'd love to hear speak? Someone you think we should contact?</p>
+					<a href="https://docs.google.com/a/whiteoctober.co.uk/spreadsheet/viewform?formkey=dC14WVhfSjdBMTU0ZUNYR2xpZVdzc3c6MQ#gid=0" class="btn btn-primary">Suggest away!</a>
+				</div>
+				
+				
+				
 			</div>
 
 			<footer>
